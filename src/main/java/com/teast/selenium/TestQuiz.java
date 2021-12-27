@@ -18,7 +18,9 @@ public class TestQuiz {
         WebDriver driver = new ChromeDriver(abc);
         
         driver.get("https://www.testandquiz.com/");
-        
+		
+        // use implicit waits.
+		
         Thread.sleep(3000);
         
         driver.manage().window().maximize();
